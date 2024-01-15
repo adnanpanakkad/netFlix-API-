@@ -13,8 +13,7 @@ class MainTileCardSeries extends StatelessWidget {
 
   final String title;
   final AsyncSnapshot snapshot;
-
-
+  
   @override
   Widget build(BuildContext context) {
     return Column(
