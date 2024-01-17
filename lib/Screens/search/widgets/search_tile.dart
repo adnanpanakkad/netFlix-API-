@@ -13,7 +13,6 @@ class SearchTile extends StatelessWidget {
   });
 
   final AsyncSnapshot snapshot;
-
   @override
   Widget build(BuildContext context) {
     return Padding(
