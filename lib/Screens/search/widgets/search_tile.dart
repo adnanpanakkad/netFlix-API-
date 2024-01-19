@@ -4,8 +4,6 @@ import 'package:netflix_clone/constant/colors/common_color.dart';
 import 'package:netflix_clone/constant/constants.dart';
 import 'package:netflix_clone/constant/fonts.dart';
 
-
-
 class SearchTile extends StatelessWidget {
   const SearchTile({
     super.key,
