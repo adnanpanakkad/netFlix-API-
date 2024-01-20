@@ -68,7 +68,7 @@ class MainCardWidget extends StatelessWidget {
                         ),
                       ),
                       onPressed: () {},
-                      icon: const Padding(
+                      icon:  Padding(
                         padding: EdgeInsets.only(left: 15),
                         child: Icon(
                           Icons.add,

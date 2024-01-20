@@ -129,7 +129,7 @@ class ComingSoonWidget extends StatelessWidget {
                               color: titleColor,
                             ),
                           ),
-                          const Text(
+                           Text(
                             'info',
                             style: TextStyle(color: textColor, fontSize: 10),
                           ),

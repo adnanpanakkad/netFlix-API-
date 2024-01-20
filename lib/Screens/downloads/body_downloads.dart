@@ -29,7 +29,7 @@ class _BodyDownloadsState extends State<BodyDownloads> {
       children: [
         Row(
           children: [
-             Padding(
+            const Padding(
               padding: EdgeInsets.all(20.0),
               child: Icon(
                 Icons.settings,
