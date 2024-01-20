@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/constant/colors/common_color.dart';
-import 'package:netflix_clone/constant/constants.dart';
+import 'package:netflix_clone/constant/constants_api.dart';
 
 
 class MainTileCardSeries extends StatelessWidget {
@@ -20,7 +20,7 @@ class MainTileCardSeries extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.symmetric(vertical: 8),
+          padding:  EdgeInsets.symmetric(vertical: 8),
           child: Text(
             title,
             style: const TextStyle(
@@ -37,7 +37,7 @@ class MainTileCardSeries extends StatelessWidget {
             itemCount: snapshot.data.length,
             itemBuilder: (context, index) {
               return Padding(
-                padding: const EdgeInsets.only(right: 15),
+                padding:  EdgeInsets.only(right: 15),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(5),
                   child: SizedBox(

@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:netflix_clone/constant/constants.dart';
+import 'package:netflix_clone/constant/constants_api.dart';
 import 'package:netflix_clone/models/tv.dart';
 import '../models/movie.dart';
 import 'package:http/http.dart' as http;

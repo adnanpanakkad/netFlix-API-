@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/constant/colors/common_color.dart';
-import 'package:netflix_clone/constant/constants.dart';
+import 'package:netflix_clone/constant/constants_api.dart';
 
 
 
@@ -36,7 +36,7 @@ class MainCardWidget extends StatelessWidget {
                 child: Row(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.all(20.0),
+                      padding:  EdgeInsets.all(20.0),
                       child: TextButton(
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all(titleColor),

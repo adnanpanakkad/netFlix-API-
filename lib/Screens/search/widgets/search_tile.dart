@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/constant/colors/common_color.dart';
-import 'package:netflix_clone/constant/constants.dart';
+import 'package:netflix_clone/constant/constants_api.dart';
 import 'package:netflix_clone/constant/fonts.dart';
 
 class SearchTile extends StatelessWidget {
@@ -36,7 +36,7 @@ class SearchTile extends StatelessWidget {
                       style: titleTextStyle,
                       maxLines: 1,
                     )),
-                const CircleAvatar(
+                 CircleAvatar(
                   child: CircleAvatar(
                     radius: 19,
                     backgroundColor: Colors.black,

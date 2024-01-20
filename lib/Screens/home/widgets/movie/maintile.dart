@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/constant/colors/common_color.dart';
-import 'package:netflix_clone/constant/constants.dart';
+import 'package:netflix_clone/constant/constants_api.dart';
 
 
 class MainTileCard extends StatelessWidget {

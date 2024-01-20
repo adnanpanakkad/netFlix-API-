@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
-import 'package:netflix_clone/constant/constants.dart';
+import 'package:netflix_clone/constant/constants_api.dart';
 
 
 class DownloadImages extends StatelessWidget {
@@ -27,7 +27,7 @@ class DownloadImages extends StatelessWidget {
     return Transform.rotate(
       angle: angle * pi / 180,
       child: ClipRRect(
-        borderRadius: const BorderRadius.all(Radius.circular(5)),
+        borderRadius:  BorderRadius.all(Radius.circular(5)),
         child: Container(
           margin: margin,
           decoration: const BoxDecoration(

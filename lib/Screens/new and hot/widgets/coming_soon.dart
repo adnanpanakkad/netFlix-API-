@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:netflix_clone/constant/colors/common_color.dart';
-import 'package:netflix_clone/constant/constants.dart';
+import 'package:netflix_clone/constant/constants_api.dart';
 import 'package:netflix_clone/constant/fonts.dart';
 
 
@@ -40,7 +40,7 @@ class ComingSoonWidget extends StatelessWidget {
                   ),
                   Text(
                     dateParts[2].toString(),
-                    style: const TextStyle(
+                    style:  TextStyle(
                         color: titleColor,
                         fontSize: 25,
                         fontWeight: FontWeight.bold),

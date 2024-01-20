@@ -8,7 +8,7 @@ AppBar appBar(String logo, context) {
     backgroundColor: Colors.black87,
     actions: [
       Padding(
-        padding: const EdgeInsets.only(left: 15),
+        padding:  EdgeInsets.only(left: 15),
         child: SizedBox(
           width: 50,
           height: 40,
