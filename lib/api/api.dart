@@ -22,7 +22,6 @@ class Api {
   static const popularTvSeriesUrl =
       'https://api.themoviedb.org/3/tv/popular?api_key=${Constants.apiKey}';
 
-
   Future<List<Movie>> getTrendingMovies() async {
     final response = await http.get(Uri.parse(trendingUrl));
     if (response.statusCode == 200) {

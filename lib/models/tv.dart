@@ -1,6 +1,6 @@
 class TvSeries {
   final String posterPathTv;
-  final String backdropPath;
+  final dynamic backdropPath;
   final String title;
   final String overview;
 
