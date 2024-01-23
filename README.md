@@ -1,6 +1,6 @@
 # netflix_clone
 
-A new Flutter project.
+A new Flutter project sing REST API
 
 ## Getting Started
 
